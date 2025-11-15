@@ -1,0 +1,15 @@
+[
+  {
+    "id": "fireball",
+    "name": "Fireball",
+    "cost": 10,
+    "damage": 25,
+    "damageType": "fire"
+  },
+  {
+    "id": "heal",
+    "name": "Heal",
+    "cost": 15,
+    "heal": 20
+  }
+]

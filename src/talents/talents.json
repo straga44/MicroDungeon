@@ -1,0 +1,14 @@
+[
+  {
+    "id": "SwordMastery",
+    "name": "Sword Mastery",
+    "damage": 25,
+    "damageType": "Swords"
+  },
+  {
+    "id": "Regeneration",
+    "name": "Heal",
+    "cost": 15,
+    "heal": 20
+  }
+]
