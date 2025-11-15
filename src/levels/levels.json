@@ -1,0 +1,14 @@
+[
+  {
+    "id": "level_1",
+    "name": "Goblin Cave",
+    "enemies": ["goblin", "goblin", "goblinArcher"],
+    "boss": null
+  },
+  {
+    "id": "level_2",
+    "name": "Crypt",
+    "enemies": ["goblin", "goblinArcher", "goblinOfficer"],
+    "boss": "goblinOfficer"
+  }
+]

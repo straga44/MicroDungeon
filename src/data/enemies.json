@@ -1,0 +1,31 @@
+[
+  {
+    "id": "goblin",
+    "name": "Goblin",
+    "hp": 20,
+    "damage": 3,
+    "armor": 2,
+    "evasion": 1,
+    "behavior": "melee"
+  },
+
+   {
+    "id": "goblinArcher",
+    "name": "Goblin Archer",
+    "hp": 15,
+    "damage": 4,
+    "armor": 1,
+    "evasion": 3,
+    "behavior": "ranged"
+  },
+
+     {
+    "id": "goblinOfficer",
+    "name": "Goblin Officer",
+    "hp": 60,
+    "damage": 5,
+    "armor": 3,
+    "evasion": 6,
+    "behavior": "Boss"
+  }
+]

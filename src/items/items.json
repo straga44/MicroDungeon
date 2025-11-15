@@ -1,0 +1,23 @@
+[
+  {
+    "id": "armor_potion",
+    "name": "Armor Potion",
+    "type": "consumable",
+    "effect": "armor",
+    "value": 30
+  },
+  {
+    "id": "iron_sword",
+    "name": "Iron Sword",
+    "type": "weapon",
+    "speed": "normal",
+    "Damage": 5
+  },
+  {
+    "id": "leather_armor",
+    "name": "Leather Armor",
+    "type": "armor",
+    "slot": "chest",
+    "Armor": 3
+  }
+]
