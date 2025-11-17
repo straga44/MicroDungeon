@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <title>MicroDungeon</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
- <canvas id="game" width="800" height="600"></canvas>
+  <div class="can">
+   <canvas id="game" width="800" height="600"></canvas>
+   </div>
+  <div id="hud">
+  <span id="player-HP">HP: 30</span>
+  <span id="player-MP">MP: 10</span>
+</div>
 
   <script type="module" src="src/main.js"></script>
 </body>

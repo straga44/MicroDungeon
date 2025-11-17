@@ -2,7 +2,8 @@
   {
     "id": "goblin",
     "name": "Goblin",
-    "hp": 20,
+    "HP": 20,
+    "maxHP": 20,
     "damage": 3,
     "armor": 2,
     "evasion": 1,
@@ -12,7 +13,8 @@
    {
     "id": "goblinArcher",
     "name": "Goblin Archer",
-    "hp": 15,
+    "HP": 15,
+    "maxHP": 15,
     "damage": 4,
     "armor": 1,
     "evasion": 3,
@@ -22,7 +24,8 @@
      {
     "id": "goblinOfficer",
     "name": "Goblin Officer",
-    "hp": 60,
+    "HP": 60,
+    "maxHP": 60,
     "damage": 5,
     "armor": 3,
     "evasion": 6,

@@ -3,13 +3,13 @@ export default class Player {
         this.name = "Hero";
         this.x = 100;
         this.y = 100;
-        this.hp = 100;
+        this.HP = 60;
         this.maxHP = 100;
         this.regeneration = 1;
         this.lifesteal = 0;
         this.healing = 0;
-        this.mana = 50;
-        this.maxMana = 50;
+        this.MP = 50;
+        this.maxMP = 50;
         this.manaReg = 1;
         this.str = 1;
         this.damage = 10;
@@ -26,5 +26,14 @@ export default class Player {
         this.talents = []; // список id заклинаний
         this.abilites = []; // список id заклинаний
         this.inventory = [];   // список id предметов
+     this.x = 100;  // позиция на канвасе
+    this.y = 100;
+    this.w = 32;
+    this.h = 32;
     }
+
+  draw(ctx) {
+    ctx.fillStyle = "blue";
+    ctx.fillRect(this.x, this.y, this.w, this.h);
+  }
 }
